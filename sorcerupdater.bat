@@ -1,5 +1,6 @@
 :: SETLOCAL to prevent variables we set from becoming global for the entire CMD session.
 @ECHO OFF & SETLOCAL
+
 SET gitusername=Gargoyim
 :: Gets new sorcerupdater.bat from github and replace this one. Batch will continue from line 6 of the new sorcerupdater.bat.
 powershell -noprofile -command "(New-Object Net.WebClient).DownloadFile(\"https://raw.githubusercontent.com/$env:gitusername/sorcer2/master/sorcerupdater.bat\", 'sorcerupdater.bat')"
