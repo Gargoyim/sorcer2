@@ -8,8 +8,8 @@ IF EXIST "mods/OpenComputers-MC1.7.10-1.7.5.1290-universal.jar" (
     ECHO Moving to mods folder
     move OpenComputers-MC1.7.10-1.7.5.1290-universal.jar mods
 )
-IF EXIST "mods/SpiceOfLife-mc1.7.10-1.3.11.bat" (
+IF EXIST "mods/SpiceOfLife-mc1.7.10-1.3.11.jar" (
     ECHO Spice of Life shouldn't be there!
-    del "mods/SpiceOfLife-mc1.7.10-1.3.11.bat"
+    del "mods/SpiceOfLife-mc1.7.10-1.3.11.jar"
     )
 ECHO Update complete! 
