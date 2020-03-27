@@ -1,1 +1,3 @@
 OpenComputers-MC1.7.10-1.7.5.1290-universal.jar https://drive.google.com/uc?export=download&id=1KKxN71Qutja_ArIcm8YRvj7QY7uu-6hL
+AdvancedRocketry-1.7.10-1.0.19b.jar https://drive.google.com/uc?export=download&id=1fJ2Ya71dXXk2VJ5trp3R2Bni0uJ_TsA6
+LibVulpes-1.7.10-0.1.19-universal.jar https://drive.google.com/uc?export=download&id=1UPtO7hE2VB50hDKY85zlJiA2cIzObp_8
