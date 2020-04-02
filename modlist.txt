@@ -5,3 +5,4 @@ Computronics-1.7.10-1.6.6.jar https://drive.google.com/uc?export=download&id=1Bu
 OpenSecurity-1.7.10-1.0-117.jar https://drive.google.com/uc?export=download&id=19c0BnFsWwXbO7kOez1DC0iggtw6iT4Zd
 AsieLib-1.7.10-0.4.9.jar https://drive.google.com/uc?export=download&id=1KyjvTGnZuYYXoQXD8qN2nMoTh84kWOaZ
 Animals-Plus-Mod-1.7.10.jar https://drive.google.com/uc?export=download&id=1KQb4eTSkWp8OThv9R7e51NFHyRR6jX0I
+ForgeMultipart-1.7.10-1.2.0.347-universal.jar https://drive.google.com/uc?export=download&id=1vOkix_uk9qwBXpgyb9nYM1HCp12-Cozg
