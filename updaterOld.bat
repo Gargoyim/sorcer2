@@ -55,26 +55,13 @@ IF EXIST "mods/AsieLib-1.7.10-0.4.9.jar" (
 )
 
 IF EXIST "mods/Animals-Plus-Mod-1.7.10.jar" (
-    ECHO Animals Plus is installed! Deleting...
-) ELSE (
-    ECHO Animals Plus is not installed! Downloading...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1KQb4eTSkWp8OThv9R7e51NFHyRR6jX0I', 'Animals-Plus-Mod-1.7.10.jar')"
-    ECHO Moving to mods folder...
+    ECHO Animals Plus is shouldn't be there!
     del "mods/Animals-Plus-Mod-1.7.10.jar"
-)
+    )
 
 IF EXIST "mods/SpiceOfLife-mc1.7.10-1.3.11.jar" (
     ECHO Spice of Life shouldn't be there!
     del "mods/SpiceOfLife-mc1.7.10-1.3.11.jar"
-    )
-    
-IF EXIST "mods/1.7.10/ForgeMultipart-1.7.10-1.2.0.345-universal.jar" (
-    ECHO Wrong version of Multipart!
-    del "mods/ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
-    ECHO Getting new version of Multipart...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1vOkix_uk9qwBXpgyb9nYM1HCp12-Cozg', 'ForgeMultipart-1.7.10-1.2.0.347-universal.jar')"
-    ECHO Moving to mods folder...
-    move ForgeMultipart-1.7.10-1.2.0.347-universal.jar "mods/1.7.10"
     )
     
 ECHO Update complete! 
