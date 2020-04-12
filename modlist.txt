@@ -4,3 +4,7 @@ LibVulpes-1.7.10-0.1.19-universal.jar https://drive.google.com/uc?export=downloa
 Computronics-1.7.10-1.6.6.jar https://drive.google.com/uc?export=download&id=1Bu4S-4hATgaasIUvYJ9eRbWFkG2Fo_QX
 OpenSecurity-1.7.10-1.0-117.jar https://drive.google.com/uc?export=download&id=19c0BnFsWwXbO7kOez1DC0iggtw6iT4Zd
 AsieLib-1.7.10-0.4.9.jar https://drive.google.com/uc?export=download&id=1KyjvTGnZuYYXoQXD8qN2nMoTh84kWOaZ
+OpenModsLib-1.7.10-0.10.1.jar https://drive.google.com/uc?export=download&id=1IiybIYrHwu1Tfptbjc4Jq4fo5sR2FWf1
+Flamingo-1.7.10-1.3.jar https://drive.google.com/uc?export=download&id=17NRL5pY2jAAFfKViZvLwNizOuzW2BRxr
+OpenBlocks-1.7.10-1.6.jar https://drive.google.com/uc?export=download&id=1at6ZKy8KzbhVq7RCBLJyyADqRd9sq9It
+OpenPeripheral-1.7.10-AIO-8.jar https://drive.google.com/uc?export=download&id=1CEo46uRj1S043kk2Z_HwLI0Em_oedKzd
