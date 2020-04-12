@@ -54,6 +54,42 @@ IF EXIST "mods/AsieLib-1.7.10-0.4.9.jar" (
     move AsieLib-1.7.10-0.4.9.jar mods
 )
 
+IF EXIST "mods/Flamingo-1.7.10-1.3.jar" (
+    ECHO Flamingo is already installed!
+) ELSE (
+    ECHO Flamingo is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=17NRL5pY2jAAFfKViZvLwNizOuzW2BRxr', 'Flamingo-1.7.10-1.3.jar')"
+    ECHO Moving to mods folder...
+    move Flamingo-1.7.10-1.3.jar mods
+)
+
+IF EXIST "mods/OpenPeripheral-1.7.10-AIO-8.jar" (
+    ECHO OpenPeripheral is already installed!
+) ELSE (
+    ECHO OpenPeripheral is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1CEo46uRj1S043kk2Z_HwLI0Em_oedKzd', 'OpenPeripheral-1.7.10-AIO-8.jar')"
+    ECHO Moving to mods folder...
+    move OpenPeripheral-1.7.10-AIO-8.jar mods
+)
+
+IF EXIST "mods/OpenBlocks-1.7.10-1.6.jar" (
+    ECHO OpenBlocks is already installed!
+) ELSE (
+    ECHO OpenBlocks is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1at6ZKy8KzbhVq7RCBLJyyADqRd9sq9It', 'OpenBlocks-1.7.10-1.6.jar')"
+    ECHO Moving to mods folder...
+    move OpenBlocks-1.7.10-1.6.jar mods
+)
+
+IF EXIST "mods/OpenModsLib-1.7.10-0.10.1.jar" (
+    ECHO OpenModsLib is already installed!
+) ELSE (
+    ECHO OpenModsLib is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1IiybIYrHwu1Tfptbjc4Jq4fo5sR2FWf1', 'OpenModsLib-1.7.10-0.10.1.jar')"
+    ECHO Moving to mods folder...
+    move OpenModsLib-1.7.10-0.10.1.jar mods
+)
+
 IF EXIST "mods/Animals-Plus-Mod-1.7.10.jar" (
     ECHO Animals Plus is shouldn't be there!
     del "mods/Animals-Plus-Mod-1.7.10.jar"
