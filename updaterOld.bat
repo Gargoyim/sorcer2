@@ -90,6 +90,12 @@ IF EXIST "mods/OpenModsLib-1.7.10-0.10.1.jar" (
     move OpenModsLib-1.7.10-0.10.1.jar mods
 )
 
+IF EXIST "mods/rftools-4.13.jar" (
+    ECHO RFTools is outdated! Updating...
+    del "mods/rftools-4.13.jar"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=19HXnjz1DUwue81rbjlMXE7A10F0UTk8E', 'rftools-4.23.jar')"
+)
+
 IF EXIST "mods/Animals-Plus-Mod-1.7.10.jar" (
     ECHO Animals Plus is shouldn't be there!
     del "mods/Animals-Plus-Mod-1.7.10.jar"
