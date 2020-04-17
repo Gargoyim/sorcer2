@@ -8,3 +8,4 @@ OpenModsLib-1.7.10-0.10.1.jar https://drive.google.com/uc?export=download&id=1Ii
 Flamingo-1.7.10-1.3.jar https://drive.google.com/uc?export=download&id=17NRL5pY2jAAFfKViZvLwNizOuzW2BRxr
 OpenBlocks-1.7.10-1.6.jar https://drive.google.com/uc?export=download&id=1at6ZKy8KzbhVq7RCBLJyyADqRd9sq9It
 OpenPeripheral-1.7.10-AIO-8.jar https://drive.google.com/uc?export=download&id=1CEo46uRj1S043kk2Z_HwLI0Em_oedKzd
+rftools-4.23.jar https://drive.google.com/uc?export=download&id=19HXnjz1DUwue81rbjlMXE7A10F0UTk8E
