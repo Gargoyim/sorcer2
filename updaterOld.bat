@@ -96,6 +96,51 @@ IF EXIST "mods/rftools-4.13.jar" (
     powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=19HXnjz1DUwue81rbjlMXE7A10F0UTk8E', 'rftools-4.23.jar')"
 )
 
+IF EXIST "mods/MowziesMobs-1.2.99.jar" (
+    ECHO Mowzie's Mobs is already installed!
+) ELSE (
+    ECHO Mowzie's Mobs is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1DFUoc7hrM1P7TD3c5RHknkGDpBpRH2dG', 'MowziesMobs-1.2.99.jar')"
+    ECHO Moving to mods folder...
+    move MowziesMobs-1.2.99.jar mods
+)
+
+IF EXIST "mods/GrimoireOfGaia3-1.7.10-1.2.7.jar" (
+    ECHO Grimoire of Gaia is already installed!
+) ELSE (
+    ECHO Grimoire of Gaia is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1XLXfx_5z-ekpPEOtvPDzKeBUPEkn4PdL', 'GrimoireOfGaia3-1.7.10-1.2.7.jar')"
+    ECHO Moving to mods folder...
+    move GrimoireOfGaia3-1.7.10-1.2.7.jar mods
+)
+
+IF EXIST "mods/primitivemobs-1.0c-1.7.10.jar" (
+    ECHO Primitive Mobs is already installed!
+) ELSE (
+    ECHO Primitive Mobs is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1cQ8smmBHvTQpXLxSqFyZqu2jU-Lr6_aM', 'primitivemobs-1.0c-1.7.10.jar')"
+    ECHO Moving to mods folder...
+    move primitivemobs-1.0c-1.7.10.jar mods
+)
+
+IF EXIST "mods/llibrary-1.5.1-1.7.10.jar" (
+    ECHO LLibrary is already installed!
+) ELSE (
+    ECHO LLibrary is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1wRNolMtk8oEWjMBBPv0gqCVYSCYD9Tcm', 'llibrary-1.5.1-1.7.10.jar')"
+    ECHO Moving to mods folder...
+    move llibrary-1.5.1-1.7.10.jar mods
+)
+
+IF EXIST "mods/witchery-1.7.10-0.24.1.jar" (
+    ECHO Witchery is already installed!
+) ELSE (
+    ECHO Witchery is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1yYsULJOzH2mu9UM5PzmDppIPbCdaw711', 'witchery-1.7.10-0.24.1.jar')"
+    ECHO Moving to mods folder...
+    move witchery-1.7.10-0.24.1.jar mods
+)
+
 IF EXIST "mods/Animals-Plus-Mod-1.7.10.jar" (
     ECHO Animals Plus is shouldn't be there!
     del "mods/Animals-Plus-Mod-1.7.10.jar"
