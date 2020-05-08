@@ -9,3 +9,8 @@ Flamingo-1.7.10-1.3.jar https://drive.google.com/uc?export=download&id=17NRL5pY2
 OpenBlocks-1.7.10-1.6.jar https://drive.google.com/uc?export=download&id=1at6ZKy8KzbhVq7RCBLJyyADqRd9sq9It
 OpenPeripheral-1.7.10-AIO-8.jar https://drive.google.com/uc?export=download&id=1CEo46uRj1S043kk2Z_HwLI0Em_oedKzd
 rftools-4.23.jar https://drive.google.com/uc?export=download&id=19HXnjz1DUwue81rbjlMXE7A10F0UTk8E
+MowziesMobs-1.2.99.jar https://drive.google.com/uc?export=download&id=1DFUoc7hrM1P7TD3c5RHknkGDpBpRH2dG
+GrimoireOfGaia3-1.7.10-1.2.7.jar https://drive.google.com/uc?export=download&id=1XLXfx_5z-ekpPEOtvPDzKeBUPEkn4PdL
+primitivemobs-1.0c-1.7.10.jar https://drive.google.com/uc?export=download&id=1cQ8smmBHvTQpXLxSqFyZqu2jU-Lr6_aM
+llibrary-1.5.1-1.7.10.jar https://drive.google.com/uc?export=download&id=1wRNolMtk8oEWjMBBPv0gqCVYSCYD9Tcm
+witchery-1.7.10-0.24.1.jar https://drive.google.com/uc?export=download&id=1yYsULJOzH2mu9UM5PzmDppIPbCdaw711
