@@ -14,3 +14,4 @@ GrimoireOfGaia3-1.7.10-1.2.7.jar https://drive.google.com/uc?export=download&id=
 primitivemobs-1.0c-1.7.10.jar https://drive.google.com/uc?export=download&id=1cQ8smmBHvTQpXLxSqFyZqu2jU-Lr6_aM
 llibrary-1.5.1-1.7.10.jar https://drive.google.com/uc?export=download&id=1wRNolMtk8oEWjMBBPv0gqCVYSCYD9Tcm
 witchery-1.7.10-0.24.1.jar https://drive.google.com/uc?export=download&id=1yYsULJOzH2mu9UM5PzmDppIPbCdaw711
+ThaumicHorizons-1.1.6.1.jar https://drive.google.com/uc?export=download&id=1Lu6SvXTyn0C-1kK_ylV19Q6ZlqDRF-gz
