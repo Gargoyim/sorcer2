@@ -141,6 +141,18 @@ IF EXIST "mods/witchery-1.7.10-0.24.1.jar" (
     move witchery-1.7.10-0.24.1.jar mods
 )
 
+IF EXIST "mods/ThaumicHorizons-1.1.6.1.jar" (
+    ECHO Thaumic Horizons is already up to date!
+) ELSE (
+    ECHO Thaumic Horizons is not up to date! Updating...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1Lu6SvXTyn0C-1kK_ylV19Q6ZlqDRF-gz', 'ThaumicHorizons-1.1.6.1.jar')"
+    ECHO Moving to mods folder...
+    move ThaumicHorizons-1.1.6.1.jar mods
+)
+IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
+    del "mods/ThaumicHorizons-1.1.6.jar"
+    )
+
 IF EXIST "mods/Animals-Plus-Mod-1.7.10.jar" (
     ECHO Animals Plus is shouldn't be there!
     del "mods/Animals-Plus-Mod-1.7.10.jar"
