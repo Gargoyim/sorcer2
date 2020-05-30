@@ -145,7 +145,7 @@ IF EXIST "mods/ThaumicHorizons-1.1.6.3.jar" (
     ECHO Thaumic Horizons is already up to date!
 ) ELSE (
     ECHO Thaumic Horizons is not up to date! Updating...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1IfaFAO4UCnTVGVN3TR1DmNfyeYgURSAq', 'ThaumicHorizons-1.1.6.3.jar')"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=18j81tLXbzx7WnqOwqbxyxteIlQkUHvVf', 'ThaumicHorizons-1.1.6.3.jar')"
     ECHO Moving to mods folder...
     move ThaumicHorizons-1.1.6.3.jar mods
 )
