@@ -150,6 +150,15 @@ IF EXIST "mods/ThaumicHorizons-1.1.6.4.jar" (
     move ThaumicHorizons-1.1.6.4.jar mods
 )
 
+IF EXIST "mods/LycanitesMobsComplete1.13.0.5.jar" (
+    ECHO Lycanites Mobs is already installed!
+) ELSE (
+    ECHO Lycanites Mobs is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=16guFVEgtTjzfGL2a1zNHdmAPx8E10jkJ', 'LycanitesMobsComplete1.13.0.5.jar')"
+    ECHO Moving to mods folder...
+    move LycanitesMobsComplete1.13.0.5.jar mods
+)
+
 IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
     del "mods/ThaumicHorizons-1.1.6.jar"
     )
