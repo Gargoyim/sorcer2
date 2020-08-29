@@ -159,6 +159,38 @@ IF EXIST "mods/LycanitesMobsComplete1.13.0.5.jar" (
     move LycanitesMobsComplete1.13.0.5.jar mods
 )
 
+IF EXIST "mods/Atum-1.7.10-0.6.77.jar" (
+    ECHO Atum is already installed!
+) ELSE (
+    ECHO Atum is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1TFmyLB9ZoA06N7Ae-nIaLshdmcA7lo70', 'Atum-1.7.10-0.6.77.jar')"
+    ECHO Moving to mods folder...
+    move Atum-1.7.10-0.6.77.jar mods
+)
+
+IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
+    ECHO Aether is already installed!
+) ELSE (
+    ECHO Aether is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=18aR7c84yC06jgNPnweOKyuOaAp5DD7GU', 'aether-1.7.10-v1.1.0.jar')"
+    ECHO Moving to mods folder...
+    move aether-1.7.10-v1.1.0.jar mods
+)
+
+IF EXIST "mods/tropicraft-6.0.5.jar" (
+    ECHO Tropicraft is already installed!
+) ELSE (
+    ECHO Tropicraft is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1rKb_vsHqubx2k7Iu8YOVt4uAJNlEEXXP', 'coroutil-1.1.3_for_MC_v1.7.10.jar')"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1qO0W9MmmoB_fKz4dSThn9mPuTXsKT6zu', 'tropicraft-6.0.5.jar')"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1imUJFA27W6L84M31A7HxiwpsEroj-wjO', 'koavillage.schematic')"
+    ECHO Moving to mods folder...
+    move coroutil-1.1.3_for_MC_v1.7.10.jar mods
+    move tropicraft-6.0.5.jar mods
+    mkdir TCSchematics
+    move koavillage.schematic TCSchematics
+)
+
 IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
     del "mods/ThaumicHorizons-1.1.6.jar"
     )
