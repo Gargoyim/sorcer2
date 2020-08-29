@@ -16,3 +16,6 @@ llibrary-1.5.1-1.7.10.jar https://drive.google.com/uc?export=download&id=1wRNolM
 witchery-1.7.10-0.24.1.jar https://drive.google.com/uc?export=download&id=1yYsULJOzH2mu9UM5PzmDppIPbCdaw711
 ThaumicHorizons-1.1.6.4.jar https://drive.google.com/uc?export=download&id=1LtEQwNQdbIcJbSysMDPXeLQmk5QLbqp3
 LycanitesMobsComplete1.13.0.5.jar https://drive.google.com/uc?export=download&id=16guFVEgtTjzfGL2a1zNHdmAPx8E10jkJ
+Atum-1.7.10-0.6.77.jar https://drive.google.com/uc?export=download&id=1TFmyLB9ZoA06N7Ae-nIaLshdmcA7lo70
+aether-1.7.10-v1.1.0.jar https://drive.google.com/uc?export=download&id=18aR7c84yC06jgNPnweOKyuOaAp5DD7GU
+Tropicraft.zip https://drive.google.com/uc?export=download&id=1j1JoLVDzRefK-_xbFm4CZbem-peNpz99
