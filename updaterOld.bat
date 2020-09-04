@@ -200,13 +200,13 @@ IF EXIST "mods/ArchimedesShips-1.7.1.jar" (
     move ArchimedesShips-1.7.1.jar mods
 )
 
-IF EXIST "mods/Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar" (
+IF EXIST "mods/Electroblobs-Wizardry.jar" (
     ECHO Electroblob's Wizardry is already installed!
 ) ELSE (
     ECHO Electroblob's Wizardry is not installed! Downloading...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1TCawui-sD8BRjHZYm_mTKxH46tEtT9sP', 'Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar')"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1TCawui-sD8BRjHZYm_mTKxH46tEtT9sP', 'Electroblobs-Wizardry.jar')"
     ECHO Moving to mods folder...
-    move Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar mods
+    move Electroblobs-Wizardry.jar mods
 )
 
 IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
