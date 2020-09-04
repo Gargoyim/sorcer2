@@ -191,6 +191,24 @@ IF EXIST "mods/tropicraft-6.0.5.jar" (
     move koavillage.schematic TCSchematics
 )
 
+IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
+    ECHO Archemedes Ships is already installed!
+) ELSE (
+    ECHO Archemedes Ships is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1O3InjKepvIWK3XSsl3LidZn1AiXzlmb8', 'ArchimedesShips-1.7.1.jar')"
+    ECHO Moving to mods folder...
+    move ArchimedesShips-1.7.1.jar mods
+)
+
+IF EXIST "mods/Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar" (
+    ECHO Electroblob's Wizardry is already installed!
+) ELSE (
+    ECHO Electroblob's Wizardry is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1TCawui-sD8BRjHZYm_mTKxH46tEtT9sP', 'Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar')"
+    ECHO Moving to mods folder...
+    move Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar mods
+)
+
 IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
     del "mods/ThaumicHorizons-1.1.6.jar"
     )
