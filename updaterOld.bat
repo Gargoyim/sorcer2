@@ -191,7 +191,7 @@ IF EXIST "mods/tropicraft-6.0.5.jar" (
     move koavillage.schematic TCSchematics
 )
 
-IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
+IF EXIST "mods/ArchimedesShips-1.7.1.jar" (
     ECHO Archemedes Ships is already installed!
 ) ELSE (
     ECHO Archemedes Ships is not installed! Downloading...
