@@ -20,4 +20,4 @@ Atum-1.7.10-0.6.77.jar https://drive.google.com/uc?export=download&id=1TFmyLB9Zo
 aether-1.7.10-v1.1.0.jar https://drive.google.com/uc?export=download&id=18aR7c84yC06jgNPnweOKyuOaAp5DD7GU
 Tropicraft.zip https://drive.google.com/uc?export=download&id=1j1JoLVDzRefK-_xbFm4CZbem-peNpz99
 ArchimedesShips-1.7.1.jar https://drive.google.com/uc?export=download&id=1O3InjKepvIWK3XSsl3LidZn1AiXzlmb8
-Electroblob's_Wizardry_1.1.5_MC_1.7.10.jar https://drive.google.com/uc?export=download&id=1TCawui-sD8BRjHZYm_mTKxH46tEtT9sP
+Electroblobs_Wizardry.jar https://drive.google.com/uc?export=download&id=1TCawui-sD8BRjHZYm_mTKxH46tEtT9sP
