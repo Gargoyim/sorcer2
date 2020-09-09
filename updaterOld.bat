@@ -212,9 +212,9 @@ IF EXIST "mods/Electroblobs-Wizardry.jar" (
 IF EXIST "mods/config/Reika/DragonAPI.cfg" (
     ECHO The junk from September 9th is here, thank god!
 ) ELSE (
-    ECHO The junk I added on September 9th is missing! Downloading...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1rrXmA9iPWnpQPypOE9VJb_941Zhb_wtK', 'modjunk.zip')"
-    ECHO Extracting...
+    ECHO The junk I added on September 9th is missing! Downloading... Also after this, don't forget to update your Forge client from 1558 to 1614!
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1QYpMVAsGfQRlKM2uDUOnS6mPmkHaLpHR', 'modjunk.zip')"
+    ECHO Extracting... 
     jar xf modjunk.zip
 )
 
