@@ -215,7 +215,7 @@ IF EXIST "mods/config/Reika/DragonAPI.cfg" (
     ECHO The junk I added on September 9th is missing! Downloading...
     powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1rrXmA9iPWnpQPypOE9VJb_941Zhb_wtK', 'modjunk.zip')"
     ECHO Extracting...
-    unzip -o modjunk.zip %cd%
+    jar xf modjunk.zip
 )
 
 IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
