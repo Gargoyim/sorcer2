@@ -5,6 +5,7 @@ IF EXIST "unzip.exe" (
 ) ELSE (
     ECHO Info-Zip is not installed! Downloading...
     powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1DdxfR1i6vmTHMYD8qI6bXkJEOy4v7JWN', 'unzip.exe')"
+)
     
 IF EXIST "mods/OpenComputers-MC1.7.10-1.7.5.1290-universal.jar" (
     ECHO OpenComputers is already installed!
