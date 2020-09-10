@@ -1,5 +1,6 @@
 ECHO OFF
 ECHO Checking for all changes made through these updates so far...
+
 IF EXIST "unzip.exe" (
     ECHO Info-Zip is already installed!
 ) ELSE (
