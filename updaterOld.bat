@@ -226,8 +226,6 @@ IF EXIST "mods/config/Reika/DragonAPI.cfg" (
     unzip modjunk.zip
 )
 
-OpenGlasses-1.0.46.jar
-https://drive.google.com/file/d/1aFztD2ji60blAQ7VTm9OjL-kM2MXxTvV
 IF EXIST "mods/OpenGlasses-1.0.46.jar" (
     ECHO OpenGlasses is already installed!
 ) ELSE (
