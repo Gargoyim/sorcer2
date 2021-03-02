@@ -235,13 +235,13 @@ IF EXIST "mods/OpenGlasses-1.0.46.jar" (
     move OpenGlasses-1.0.46.jar mods
 )
 
-IF EXIST "mods/Carpenter's_Blocks_v3.3.8.2_MC_1.7.10.jar" (
+IF EXIST "mods/Carpentersblocks.jar" (
     ECHO Carpenter's Blocks is already installed!
 ) ELSE (
     ECHO Carpenter's Blocks is not installed! Downloading...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=17g6au2R619ofVecWUYNbKXFCdCNB6Oir', 'Carpenter's_Blocks_v3.3.8.2_MC_1.7.10.jar')"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=17g6au2R619ofVecWUYNbKXFCdCNB6Oir', 'Carpentersblocks.jar')"
     ECHO Moving to mods folder...
-    move Carpenter's_Blocks_v3.3.8.2_MC_1.7.10.jar mods
+    move Carpentersblocks.jar mods
 )
 
 
