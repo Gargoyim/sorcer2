@@ -217,7 +217,7 @@ IF EXIST "mods/Electroblobs-Wizardry.jar" (
     move Electroblobs-Wizardry.jar mods
 )
 
-IF EXIST "mods/config/Reika/DragonAPI.cfg" (
+IF EXIST "config/Reika/DragonAPI.cfg" (
     ECHO The junk from September 9th is here, thank god!
 ) ELSE (
     ECHO The junk I added on September 9th is missing! Downloading... Also after this, don't forget to update your Forge client from 1558 to 1614!
