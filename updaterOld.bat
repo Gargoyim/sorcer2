@@ -245,6 +245,25 @@ IF EXIST "mods/Carpentersblocks.jar" (
 )
 
 
+IF EXIST "mods/fossilsarcheology-7.3.2.jar" (
+    ECHO Fossils and Archeology is already installed!
+) ELSE (
+    ECHO Fossils and Archeology is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1uzlOlnyPagBsTBIlOkNWmXlHcqXOCNNq', 'fossilsarcheology-7.3.2.jar')"
+    ECHO Moving to mods folder...
+    move fossilsarcheology-7.3.2.jar mods
+)
+
+IF EXIST "config/fossil.cfg" (
+    ECHO fossil.cfg is already installed!
+) ELSE (
+    ECHO fossil.cfg is not installed! Downloading...
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1rmfi5f2kpFGYH0815X6BKEuUD3gfrA17', 'fossil.cfg')"
+    ECHO Moving to mods folder...
+    move fossil.cfg config
+)
+
+
 IF EXIST "mods/ThaumicHorizons-1.1.6.jar" (
     del "mods/ThaumicHorizons-1.1.6.jar"
     )
