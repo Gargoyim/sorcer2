@@ -176,13 +176,13 @@ IF EXIST "mods/Atum-1.7.10-0.6.77.jar" (
     move Atum-1.7.10-0.6.77.jar mods
 )
 
-IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
+IF EXIST "mods/aether-1.7.10-v1.1.2.1.jar" (
     ECHO Aether is already installed!
 ) ELSE (
     ECHO Aether is not installed! Downloading...
-    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=18aR7c84yC06jgNPnweOKyuOaAp5DD7GU', 'aether-1.7.10-v1.1.0.jar')"
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1S2DSiFPvBCK0UdKB78YtqIpeRmsAaoeb', 'aether-1.7.10-v1.1.2.1.jar')"
     ECHO Moving to mods folder...
-    move aether-1.7.10-v1.1.0.jar mods
+    move aether-1.7.10-v1.1.2.1.jar mods
 )
 
 IF EXIST "mods/tropicraft-6.0.5.jar" (
@@ -279,6 +279,16 @@ IF EXIST "mods/Animals-Plus-Mod-1.7.10.jar" (
 IF EXIST "mods/SpiceOfLife-mc1.7.10-1.3.11.jar" (
     ECHO Spice of Life shouldn't be there!
     del "mods/SpiceOfLife-mc1.7.10-1.3.11.jar"
+    )
+    
+    IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
+    ECHO Old version of Aether still present! Deleting...
+    del "mods/aether-1.7.10-v1.1.0.jar"
+    IF EXIST "config/aether/AetherI.cfg" (
+    del "config/aether/AetherI.cfg"
+    )
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1R3zVMxMhwzqj696SDjzdlTn_x4b1vPx6', 'AetherI.cfg')"
+    move AetherI.cfg config/aether
     )
     
 ECHO Update complete! 
