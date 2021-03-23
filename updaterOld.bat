@@ -282,7 +282,6 @@ IF EXIST "mods/SpiceOfLife-mc1.7.10-1.3.11.jar" (
     )
     
     IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
-    ECHO Old version of Aether still present! Deleting...
     del "mods/aether-1.7.10-v1.1.0.jar"
     IF EXIST "config/aether/AetherI.cfg" (
     del "config/aether/AetherI.cfg"
