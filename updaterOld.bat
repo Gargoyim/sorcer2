@@ -282,8 +282,11 @@ IF EXIST "mods/SpiceOfLife-mc1.7.10-1.3.11.jar" (
     )
     
     IF EXIST "mods/aether-1.7.10-v1.1.0.jar" (
-    del "mods/aether-1.7.10-v1.1.0.jar"
-    del "config/aether/AetherI.cfg"
+    cd mods
+    del "aether-1.7.10-v1.1.0.jar"
+    cd ~
+    cd config/aether
+    del "AetherI.cfg"
     powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=1R3zVMxMhwzqj696SDjzdlTn_x4b1vPx6', 'AetherI.cfg')"
     move AetherI.cfg config/aether
     )
